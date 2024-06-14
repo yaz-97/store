@@ -1,0 +1,111 @@
+.product{
+    max-width: 100%;
+    padding: 20px;
+    min-height: calc(100vh - 80px);
+}
+
+.proFilter{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    justify-content: end;
+}
+
+.filter-dropdown {
+    margin-right: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.filter-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #555;
+}
+
+
+select {
+    padding-left: 30px; /* adjust the padding to make space for the icon */
+    appearance: none;
+    -webkit-appearance: none;
+    width: 200px;
+    -moz-appearance: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+.productCard{
+    display: flex;
+    cursor: pointer;
+    width: 100%;
+    gap: 10px;
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.proCards{
+    border: 1px solid gray;
+    padding: 15px;
+    width: 30%;
+    min-height: 390px;
+    margin: 3px 0px;
+}
+
+.proCards img{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+.proContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    min-height: 80px;
+}
+
+.proContent h3{
+    font-size: 22px;
+}
+
+.proContent span{
+    font-size: 18px;
+    font-weight: 500;
+    color: red;
+}
+
+.proRight button{
+   background: blue;
+   color: white;
+   border: none;
+   border-radius: 20px;
+   padding: 10px 30px;
+   cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .proCards{
+        width: 44%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .proCards{
+        width: 90%;
+    }
+    .proContent h3{
+        font-size: 16px;
+    }
+}

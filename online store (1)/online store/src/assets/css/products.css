@@ -1,0 +1,43 @@
+.productsData{
+    max-width: 100%;
+    padding: 20px;
+}
+
+.productsData h1{
+    margin-bottom: 20px;
+}
+.productsData table{
+    width: 100%;
+}
+
+.productsData table tr th{
+    padding: 5px;
+}
+
+.productsData table tr td{
+    text-align: center;
+    padding: 5px;
+    height: 100%;
+}
+
+.proImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.Actionbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.productBtn{
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80px;
+    padding: 0px 30px;
+    background: #D82525;
+}
+
+.footer p{
+    color: white;
+}
+
+.socialIcons{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .footer{
+        padding: 20px 0px;
+    }
+    .footer p{
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .socialIcons{
+        width: 100%;
+        justify-content: center;
+    }
+    
+}

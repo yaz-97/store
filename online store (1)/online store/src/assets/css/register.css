@@ -1,0 +1,186 @@
+.registerPage{
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    background-image: linear-gradient(to right, rgba(109, 179, 242, .8), rgba(109, 179, 242, .8)), url('../images/product\ bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerForm{
+    margin: 40px 0px;
+    background: white;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.registerForm h1{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.registerTop{
+    width: 100%;
+    display: flex;
+}
+
+.stepslink{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    width: 33%;
+    padding: 20px;
+}
+
+form{
+    padding: 0px 10px;
+}
+
+.inputGrop{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 15px 0px;
+}
+.inputGrop label{
+    width: 35%;
+}
+
+.profileImage{
+    padding: 20px 0px;
+}
+
+.inputGrop input{
+    height: 30px;
+    padding-left: 5px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.registerbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.registerForm button{
+    color: white;
+    background: blue;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+}
+
+.registerForm p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.regi{
+    color: blue;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#Linkactive{
+    border-bottom: 2px solid blue;
+}
+
+.profileImage{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proImageCon{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagepro{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    border-radius: 50%;
+    right: 10%;
+    cursor: pointer;
+    height: 60px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.imageInput{
+    display: none;
+}
+
+@media screen and (max-width: 1600px) {
+    .imagepro{
+        width: 40px;
+        right: 10%;
+        height: 40px;
+        bottom: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .registerForm{
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 1600px) {
+    .imagepro{
+        width: 30px;
+        right: 10%;
+        height: 30px;
+        bottom: 30px;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .registerForm{
+        width: 98%;
+    }
+    .profileDefaultImage{
+        width: 250px;
+        height: 250px;
+    }
+    .imagepro{
+        width: 30px;
+        right:7%;
+        height: 30px;
+        bottom: 45px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .registerForm{
+        width: 98%;
+    }
+    .imagepro{
+        width: 30px;
+        right:7%;
+        height: 30px;
+        bottom: 55px;
+    }
+}

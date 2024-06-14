@@ -1,0 +1,12 @@
+.adminNav{
+    padding-left: 10px;
+    background: black;
+    height: 68px;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+.adminNav h1{
+    font-size: 20px;
+}

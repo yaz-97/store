@@ -1,0 +1,85 @@
+.loginPage{
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    background-image: linear-gradient(to right, rgba(109, 179, 242, .8), rgba(109, 179, 242, .8)), url('../images/product\ bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm{
+    background: white;
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.loginForm h1{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.inputGrop{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 15px 0px;
+}
+.inputGrop label{
+    width: 30%;
+}
+
+.inputGrop input{
+    height: 30px;
+    padding-left: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.loginbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.loginForm button{
+    color: white;
+    background: blue;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+}
+
+.loginForm p{
+    text-align: center;
+}
+
+.regi{
+    color: blue;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .loginForm{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .loginForm{
+        width: 80%;
+    }
+}

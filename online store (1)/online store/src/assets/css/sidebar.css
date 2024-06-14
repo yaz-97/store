@@ -1,0 +1,34 @@
+.sidebar1{
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+.sidebar1 h1{
+    padding: 20px 0px;
+    color: white;
+    border: 1px solid gray;
+    width: 100% !important;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.adminLinks{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.adminSidebarLinks{
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.adminSidebarLinks:hover{
+    background: white;
+    color: black;
+}

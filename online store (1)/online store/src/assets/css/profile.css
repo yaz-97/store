@@ -1,0 +1,84 @@
+.profilePage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+.profile{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.procontent{
+    text-align: center;
+}
+
+.procontent h1{
+    font-size: 25px;
+}
+
+.procontent h3{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.proMoreInfo{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.profileBtns{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.profileBtns button{
+    cursor: pointer;
+}
+
+.updatebtn{
+    width: 30%;
+    height: 30px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .procontent h1{
+        font-size: 20px;
+    }
+    .profilImage{
+        width: 100px;
+        height: 100px;
+    }
+    .procontent h3{
+        font-size: 12px;
+    }
+    .infocontent{
+        text-align: center;
+        width: 100%;
+    }
+    .profileBtns button{
+        width: 100%;
+    }
+}

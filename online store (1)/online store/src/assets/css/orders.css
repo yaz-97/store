@@ -1,0 +1,15 @@
+.orders{
+    max-width: 100%;
+    padding: 20px;
+}
+.orders h1{
+    margin-bottom: 20px;
+}
+
+.orders table{
+    width: 100%;
+}
+
+.orders th, .orders td{
+    padding: 10px;
+}
